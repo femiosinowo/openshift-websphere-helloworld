@@ -1,4 +1,4 @@
 FROM websphere/websphere
 
-ADD  https://osdn.net/frs/redir.php?m=pumath&f=pal%2F17479%2Fhelloworld.war /config/dropins/helloworld.war
+ADD https://github.com/IBM-Cloud/java-helloworld/blob/master/target/JavaHelloWorldApp.war   /config/dropins/helloworld.war
 
