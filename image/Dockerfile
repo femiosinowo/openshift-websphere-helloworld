@@ -1,4 +1,4 @@
 FROM websphere/websphere
 
-ADD https://github.com/apcera/sample-apps/blob/master/example-java-jar-hello/hello.jar /config/dropins/helloworld.war
+ADD  https://osdn.net/frs/redir.php?m=pumath&f=pal%2F17479%2Fhelloworld.war /config/dropins/helloworld.war
 
